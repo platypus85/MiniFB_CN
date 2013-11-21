@@ -1,0 +1,122 @@
+<class-diagram version="1.0.9" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" corner="BOTTOM_RIGHT" language="java" name="com.albertocamillo.progettoSettembreReti.FacebookClient" 
+    project="progettoSettembre" 
+    file="/progettoSettembre/src/com/albertocamillo/progettoSettembreReti/FacebookClient.java" binary="false">    
+    <position height="102" width="240" x="178" y="113"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="2" corner="BOTTOM_RIGHT" language="java" name="com.albertocamillo.progettoSettembreReti.FacebookServer" 
+    project="progettoSettembre" 
+    file="/progettoSettembre/src/com/albertocamillo/progettoSettembreReti/FacebookServer.java" binary="false">    
+    <position height="102" width="240" x="738" y="113"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="3" corner="BOTTOM_RIGHT" language="java" name="com.albertocamillo.progettoSettembreReti.FirstMemory" 
+    project="progettoSettembre" file="/progettoSettembre/src/com/albertocamillo/progettoSettembreReti/FirstMemory.java" 
+    binary="false">    
+    <position height="102" width="254" x="1080" y="323"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="4" corner="BOTTOM_RIGHT" language="java" name="com.albertocamillo.progettoSettembreReti.SecondMemory" 
+    project="progettoSettembre" file="/progettoSettembre/src/com/albertocamillo/progettoSettembreReti/SecondMemory.java" 
+    binary="false">    
+    <position height="170" width="240" x="458" y="113"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="5" corner="BOTTOM_RIGHT" language="java" name="com.albertocamillo.progettoSettembreReti.FacebookGrafo" 
+    project="progettoSettembre" 
+    file="/progettoSettembre/src/com/albertocamillo/progettoSettembreReti/FacebookGrafo.java" binary="false">    
+    <position height="255" width="241" x="1374" y="323"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="6" corner="BOTTOM_RIGHT" language="java" name="com.albertocamillo.progettoSettembreReti.InputThread" 
+    project="progettoSettembre" file="/progettoSettembre/src/com/albertocamillo/progettoSettembreReti/InputThread.java" 
+    binary="false">    
+    <position height="119" width="240" x="1018" y="113"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="7" corner="BOTTOM_RIGHT" language="java" name="com.albertocamillo.progettoSettembreReti.Email" 
+    project="progettoSettembre" file="/progettoSettembre/src/com/albertocamillo/progettoSettembreReti/Email.java" 
+    binary="false">    
+    <position height="272" width="240" x="458" y="323"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="8" corner="BOTTOM_RIGHT" language="java" name="com.albertocamillo.progettoSettembreReti.ServerThread" 
+    project="progettoSettembre" file="/progettoSettembre/src/com/albertocamillo/progettoSettembreReti/ServerThread.java" 
+    binary="false">    
+    <position height="136" width="317" x="1298" y="113"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="9" corner="BOTTOM_RIGHT" language="java" name="com.albertocamillo.progettoSettembreReti.FacebookSocket" 
+    project="progettoSettembre" 
+    file="/progettoSettembre/src/com/albertocamillo/progettoSettembreReti/FacebookSocket.java" binary="false">    
+    <position height="170" width="240" x="1080" y="635"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <association id="10">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="11" name="fg"/>      
+      <multiplicity id="12" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="13">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="14" name="pm"/>      
+      <multiplicity id="15" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="16">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="17" name="socket"/>      
+      <multiplicity id="18" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="19">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="20" name="mails"/>      
+      <multiplicity id="21" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true"/>    
+    <operations public="true" package="true" protected="true" private="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
